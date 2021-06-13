@@ -1,0 +1,18 @@
+h1{
+color : #0C75FD
+}
+
+body{
+background-image: url("space.png");
+background-size: 2000px 800px
+}
+h3{
+color : #AD5BC3
+}
+a:link{color: seagreen;}
+a:visited{color:springgreen}
+
+.head{position: relative;}
+.head h3{position: absolute; top:50%; left:50%;transform:translate(-50%, -50%); opacity:0}
+.head:hover h3{opacity:4;}
+.head:hover img{opacity: 0.33;transform:scale(1.3)}
